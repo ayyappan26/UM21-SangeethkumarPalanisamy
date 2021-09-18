@@ -101,7 +101,7 @@ public class AircraftBO {
 			ArrayList<AircraftDto>dto=new ArrayList<>();
 			dto.addAll(dao.viewAircraft());
 			for(int i=0;i<dto.size();i++) {
-				System.out.println("Entry ==>"+(i+1));
+				System.out.println("Row ==>"+(i+1));
 				System.out.println("AircraftCode         :"+dto.get(i).getAircraftCode());
 				System.out.println("Aircraft Description :"+dto.get(i).getDescription());
 			    System.out.println("-------------------------------------------");
@@ -178,7 +178,7 @@ public class AircraftBO {
 			for(int i=0;i<dto.size();i++) {
 				for(int j=0;j<str.size();j++) {
 					if(dto.get(i).getAircraftCode().contains(str.get(j))) {
-						System.out.println("Entry ==>"+(i+1));
+						System.out.println("Row ==>"+(i+1));
 						System.out.println("SectorId           :"+dto.get(i).getSectorId());
 						System.out.println("Aircraft Code      :"+dto.get(i).getAircraftCode());
 						System.out.println("From station       :"+dto.get(i).getFromStation());
