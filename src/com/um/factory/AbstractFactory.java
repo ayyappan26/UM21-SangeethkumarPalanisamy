@@ -15,6 +15,7 @@ public abstract class AbstractFactory {
 	 */
 	public static AbstractFactory getFactory(int choice){
 		AbstractFactory factory = null;
+		//choice 1->oraclefactory
 		if(choice ==1 ){
 			factory = new OracleFactory();
 		}else if(choice ==2){

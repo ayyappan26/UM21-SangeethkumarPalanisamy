@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Scan {
 	
 	/**
-	 * @return the scanner instance
+	 * @return scanner instance
 	 */
 	public static Scanner getScannerInstance(){
 		Scanner scan = new Scanner(System.in);

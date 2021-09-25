@@ -140,6 +140,7 @@ public class AircraftBO {
 		Scanner scan=Scan.getScannerInstance();
 		ArrayList<SectorDto>dto=new ArrayList<>();
 		for(int i=0;i<n;i++) {
+			//creating multiple dto objects
 			dto.add(new SectorDto());
 			
 			System.out.println("Enter SectorId        : ");
@@ -165,7 +166,7 @@ public class AircraftBO {
 	}
 	
 	/**
-	 * @param dao
+	 * @param dao 
 	 * viewSector() method helps to view all the sector details of the aircraft.
 	 */
 	public void viewSector(IDao dao) {
@@ -192,6 +193,9 @@ public class AircraftBO {
 		}catch(SQLException e) {
 			return;
 		}
+	}
+	public void returnNUll() {
+		
 	}
 	
 }  

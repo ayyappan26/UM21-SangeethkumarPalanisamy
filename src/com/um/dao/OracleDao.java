@@ -12,6 +12,7 @@ import com.um.dto.*;
 
 /**
  * @author Sangeethkumar
+ * In OracleDao we write Oracle db logic to communicate with oracleDB
  *
  */
 public class OracleDao implements IDao{

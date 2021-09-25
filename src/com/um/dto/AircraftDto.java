@@ -7,7 +7,7 @@ package com.um.dto;
 public class AircraftDto {
 	private String aircraftCode;
 	private String description;
-	
+	//creating getter and setter for aircraftCode and description
 	public String getAircraftCode() {
 		return aircraftCode;
 	}

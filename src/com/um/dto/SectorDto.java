@@ -11,6 +11,8 @@ public class SectorDto {
 	private String toStation;
 	private String scheduleDate;
 	private int scheduleTime;
+	
+	//creating getters and setters 
 	public String getSectorId() {
 		return sectorId;
 	}

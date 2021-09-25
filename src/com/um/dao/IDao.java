@@ -8,7 +8,7 @@ import com.um.dto.*;
 /**
  * @author Sangeethkumar
  * IDao interface is allows to perform similar operations in different Dao classes.
- *
+ * In this project we used Oracle Dao
  */
 public interface IDao {
 	

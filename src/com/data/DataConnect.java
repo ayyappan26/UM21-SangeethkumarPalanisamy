@@ -6,7 +6,7 @@ import java.sql.SQLException;
 
 public class DataConnect {
 	/**
-	 * @return
+	 * @return connection
 	 * @throws SQLException
 	 * getDbConnection() method is to connect java application with Oracle database.
 	 */
